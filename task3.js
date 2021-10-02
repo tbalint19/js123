@@ -4,7 +4,6 @@ var sentence3 = "dark sarcasm in the classroom teachers"
 var sentence4 = "leave them kids alone all in"
 var sentence5 = "all it's just another brick in the wall"
 
-console.log("")
 
 function cleanse(sentence, words) {
   var wordsOfSentence = sentence.split(" ")
