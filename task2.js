@@ -6,7 +6,7 @@ for (var number = 1; number <= 100; number++) {
 
 for (var round = 1; round <=100; round++) {
   for (var door of doors) {
-    var shouldToggle = (door.doorNumber & round) == 0
+    var shouldToggle = (door.doorNumber % round) == 0
     if (shouldToggle) {
       door.isOpen = !door.isOpen
     }
